@@ -1,15 +1,5 @@
 name: 'Test'
 
-on:
-  push:
-    branches:
-      - master
-    paths-ignore:
-      - '*.md'
-  pull_request:
-    paths-ignore:
-      - '*.md'
-
 jobs:
   skipci:
     runs-on: ubuntu-18.04
